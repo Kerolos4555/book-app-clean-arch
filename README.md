@@ -4,7 +4,9 @@ Simply Book Application build with Flutter Framework
 
 ## Getting Started
 
-This is a **Clean Architecture** based Flutter app that fetches book data from the Google Books API and displays it. It introduces **data caching** using Hive to store fetched book data for offline use.
+- This is a **Clean Architecture** based Flutter app that fetches book data from the Google Books API and displays it. It introduces **data caching** using Hive to store fetched book data for offline use.
+
+- This app supports **infinite scrolling with pagination**, allowing users to load more books as they scroll.
 
 ## 📌 Data source
 
@@ -21,7 +23,6 @@ This is a **Clean Architecture** based Flutter app that fetches book data from t
 - Flutter Framework
 - Bloc (Cubit) – For state management
 - Dio – For making HTTP requests and handling API responses
-- Pagination
 - Hive – For local caching
 - dartz – For error handling
 - get_it – For Dependency Injection
